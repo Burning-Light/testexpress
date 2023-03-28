@@ -25,7 +25,7 @@ router.post('/portrait', (req, res) => {
       return;
     }
     let url = '/images/' + files.portrait.newFilename
-    res.send(url + '111')
+    res.send(url)
   });
 })
 
